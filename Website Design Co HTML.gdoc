@@ -1,0 +1,110 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixelForge Studios | Website Design & Development</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #111;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .service {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PixelForge Studios</h1>
+    <p>Crafting stunning websites that convert</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We’re a web design agency specializing in building beautiful, conversion-driven websites for small businesses and startups. Our focus is clean design, fast performance, and measurable results.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Website Design</h3>
+        <p>Custom designs tailored to your brand that look great on all devices.</p>
+      </div>
+      <div class="service">
+        <h3>Web Development</h3>
+        <p>High-performance websites built with modern technology and SEO best practices.</p>
+      </div>
+      <div class="service">
+        <h3>Brand Identity</h3>
+        <p>Logos, typography, color schemes — we help shape your brand’s digital presence.</p>
+      </div>
+      <div class="service">
+        <h3>Maintenance & Support</h3>
+        <p>Ongoing care, updates, and monitoring so your website stays fast and secure.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Check back soon — our latest projects are getting polished up!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email us at <a href="mailto:hello@pixelforge.com">hello@pixelforge.com</a> or follow us on social media to start your project today.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PixelForge Studios. All rights reserved.</p>
+  </footer>
+</body>
+</html>
